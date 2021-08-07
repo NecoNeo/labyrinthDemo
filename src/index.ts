@@ -17,5 +17,5 @@ const canvas = document.getElementById('canvas') as HTMLCanvasElement
 // draw(mock, canvas)
 
 
-const data = generate(20, 20)
+const data = generate(20, 35)
 draw(data, canvas)

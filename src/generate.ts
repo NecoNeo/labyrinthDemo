@@ -32,8 +32,8 @@ export function generate(rows: number, cols: number) {
   do {
     const index = pathStack[pathStack.length - 1]
     const nextGridIndexes = [
-      index + rows,
-      index - rows,
+      index + cols,
+      index - cols,
       ...(() => (index + 1) % cols !== 0 ? [index + 1] : [])(),
       ...(() => index % cols !== 0 ? [index - 1] : [])()
     ]
