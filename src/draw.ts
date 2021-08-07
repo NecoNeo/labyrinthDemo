@@ -17,7 +17,6 @@ export function draw(data: {
     for (let col = 0; col < data.cols; col++) {
       const index = data.cols * row + col
       const grid = grids[index]
-      console.log(grid)
       context.lineWidth = 2
 
       if (!grid.top) {
