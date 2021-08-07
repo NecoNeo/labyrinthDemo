@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>labyrinth demo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html, body {
+        height: 100%;
+        width: 100%;
+      }
+      .canvas-container {
+        box-sizing: border-box;
+        border: solid 2px grey;
+        height: 100%;
+        width: 100%;
+      }
+      .canvas-container canvas {
+        height: 1000px;
+        width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="canvas-container">
+      <canvas id="canvas" width="1000" height="1000"></canvas>
+    </div>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
